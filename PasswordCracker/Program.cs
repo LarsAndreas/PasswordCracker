@@ -1,0 +1,5 @@
+var app = WebApplication.Create(args);
+
+app.MapGet("/", (string password) => password == "a0bc1abd89d921faf91151f437e99f2ca7d40889df029c7cf1aefd3ccdf362849f3af3e706bec65e91f8e98ee04e6a56b3fe06e03359cc311dd6c481a91b14309a1e40e467dc44c13253b485b0afaf985ba12afd25fba5c1f5a316e8822b2742d13d910ddb94a9dd85e842845c9b6452d3a1aa672a8a9188b2be3ca87ac1b73b34c41c1448882c7b53dc61447baae5f8dd71fc4c476a708b2591c7789447993e");
+
+app.Run();
